@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Remotes -->
+   <remote name="buildbot"
+           fetch="https://github.com/buildbot-stone-devs"
+           clone-depth="1" />
+   <remote name="kami"
+           fetch="https://github.com/kamikaonashi"
+           clone-depth="1" />
+   <remote name="cr"
+           fetch="https://github.com/crdroidandroid"
+           clone-depth="1" />
+   <remote name="linag"
+           fetch="https://github.com/LineageOS"
+           clone-depth="1" />
+   <remote name="cumos"
+           fetch="https://github.com/cumOS"
+	   clone-depth="1" />
+   <remote name="yaap_g"
+           fetch="https://github.com/Yaap"
+	   clone-depth="1" />
+   <remote name="mayuresh"
+           fetch="https://github.com/Mayuresh2543"
+	   clone-depth="1" />
+   <remote name="chk-bcr"
+           fetch="https://github.com/Chaitanyakm"
+	   clone-depth="1" />
+
+
+ 
+ <!-- Tree -->
+ <project path="device/xiaomi/stone" name="device_xiaomi_stone_matrix" remote="buildbot" revision="15" />
+
+ <!-- Kernel -->
+ <project path="device/xiaomi/stone-kernel" name="device_xiaomi_stone-kernel" remote="mayuresh" revision="custom" />
+
+ <!-- Vendor -->
+ <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone_matrixx" remote="buildbot" revision="15.0" />
+ 
+ <!-- Common Xiaomi Hardware Tree -->
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-22.2" />
+
+ <!-- BCR -->
+ <project path="vendor/bcr" name="vendor_bcr" remote="chk-bcr" revision="main" />
+	
+ <!-- Kanged from Vedraj🫠 -->
+	
+</manifest>
