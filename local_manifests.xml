@@ -3,7 +3,7 @@
 
  <!-- Remotes -->
    <remote name="mayuresh"
-           fetch="https://github.com/Mayuresh2543"
+           fetch="https://github.com/mayuresh2543"
            clone-depth="1" />
    <remote name="kami"
            fetch="https://github.com/kamikaonashi"
