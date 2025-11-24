@@ -28,19 +28,16 @@
            clone-depth="1" />
 
  <!-- Tree -->
- <project path="device/xiaomi/stone" name="android_device_xiaomi_stone" remote="ahh" revision="15.0" />
+ <project path="device/xiaomi/stone" name="android_device_xiaomi_stone" remote="ahh" revision="16.0" />
 
  <!-- Common Xiaomi Hardware Tree -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-22.2" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-23.0" />
 
  <!-- Kernel -->
- <project path="kernel/xiaomi/stone" name="kernel_xiaomi_stone" remote="mayuresh" revision="16" />
-
- <!-- BCR -->
- <project path="vendor/bcr" name="vendor_bcr" remote="chk-bcr" revision="main" />
+ <project path="kernel/xiaomi/stone" name="kernel_xiaomi_stone_rebase" remote="mayuresh" revision="16" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="mayuresh" revision="15" />
+ <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="mayuresh" revision="16" />
 
  <!-- Viper -->
  <project path="packages/apps/ViPER4AndroidFX" name="vendor_viper4" remote="mayuresh" revision="v4a" />
